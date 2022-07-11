@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Metadata of the Webpage -->
+  <!-- Character-set Metadata -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Viewport Metadata -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Description Metadata-->
+  <meta name="description" content="Hotaka Nagamine's Personal Website" />
+  <!-- Author Metadata -->
+  <meta name="author" content="Hotaka Nagamine" />
+  <!-- Keyword Metadata -->
+  <meta name="keywords" content="Hotaka Nagamine, Hotaka Nagamine " />
+  <!-- Webpage Logo -->
+  <link rel="shortcut icon" href="./assets/favicon/favicon.ico" />
+  <!-- Webpage Title -->
+  <title>Hotaka Nagamine</title>
+
+  <!-- Import CSS: Devicon Stylesheet -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
+  <!-- Import CSS: Timeline Stylesheet -->
+  <link rel="stylesheet" href="./assets/css/timeline.min.css" />
+  <!-- Import CSS: Main Stylesheet -->
+  <link rel="stylesheet" href="./assets/css/main.css" />
+</head>
+
+<body>
+  <div class="loading-screen">
+    <div class="loader">
+      <div class="inner one"></div>
+      <div class="inner two"></div>
+      <div class="inner three"></div>
+    </div>
+  </div>
+
+  <div id="particles-js">
+    <div class="header">
+      <h1>
+        <span class="site-title">HOTAKA NAGAMINE</span>
+        <span class="site-description">Front End Engineer • QA Tester • UI/UX Engineer</span>
+      </h1>
+      <div class="header-icons">
+        <!-- <a aria-label="LinkedIn" target="_blank" href="https://www.linkedin.com/in/avs1508/">
+          <i class="icon fa fa-linkedin" aria-hidden="true"></i>
+        </a> -->
+        <a aria-label="Github" target="_blank" href="https://github.com/bitsbuildomniverse">
+          <i class="icon fa fa-github-alt" aria-hidden="true"></i>
+        </a>
+        <a aria-label="Résumé" target="_blank"
+          href="https://drive.google.com/file/d/1pbIFiBs4YxoEabt5owvJ8BDMuO2o5QWQ/view?usp=sharing">
+          <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
+        </a>
+        <a aria-label="Email" href="mailto:nagaminehotaka@gmail.com" target="_blank"><i
+            class="icon fa fa-envelope"></i></a>
+      </div>
+      <div class="header-links">
+        <a class="link" href="#about" data-scroll>About Me</a>
+        <a class="link" href="#skills" data-scroll>Skills</a>
+        <a class="link" href="#experience" data-scroll>Experience</a>
+        <a class="link" href="#portfolio" data-scroll>Portfolio</a>
+      </div>
+    </div>
+    <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+  </div>
+
+  <!-- About Section -->
+  <section id="about">
+    <!-- Introduction-->
+    <div class="user-details">
+      <h1>Who am I?</h1>
+      <picture>
+        <!-- <source
+            type="image/webp"
+            srcset="./assets/img/webp/photo.webp"
+            alt="photo"
+            width="20%"
+            style="border-radius: 50%"
+          /> -->
+        <img src="./assets/img/jpg/photo.jpg" alt="photo" width="20%" style="border-radius: 50%" />
+      </picture>
+      <p>
+        Agile Frontend Developer with rich experience in helping companies
+        build better web applications.
+        <br />
+        Passionate about building interactive interfaces and always eager to
+        learn new technologies and methodologies as a lifelong learner.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <!-- Skills Specifics -->
+    <h1>Skills</h1>
+    <div class="skills">
+      <!-- Technology Stack #1: Languages -->
+      <div class="tech">
+        <h2>Languages</h2>
+        <i class="devicon-javascript-plain colored"></i>
+        <i class="devicon-typescript-plain colored"></i>
+        <i class="devicon-cplusplus-plain colored"></i>
+        <i class="devicon-python-plain colored"></i>
+        <p>Favorite languages for software engineering and data analysis.</p>
+      </div>
+
+      <!-- Technology Stack #2: Front-End -->
+      <div class="tech">
+        <h2>Front End</h2>
+        <i class="devicon-react-original colored"></i>
+        <i class="devicon-vuejs-plain colored"></i>
+        <i class="devicon-materialui-plain colored"></i>
+        <i class="devicon-tailwindcss-plain colored"></i>
+        <p>Preferred UI libraries and frameworks for frontend development.</p>
+      </div>
+
+      <!-- Technology Stack #3: Back-End -->
+      <div class="tech">
+        <h2>Back End</h2>
+        <i class="devicon-nodejs-plain colored"></i>
+        <i class="devicon-express-original colored"></i>
+        <i class="devicon-postgresql-plain colored"></i>
+        <i class="devicon-mongodb-plain colored"></i>
+        <p>
+          Preferred technologies for backend development and database
+          architecture.
+        </p>
+      </div>
+
+      <!-- Technology Stack #4: Tools -->
+      <div class="tech">
+        <h2>Tools</h2>
+        <i class="devicon-git-plain colored"></i>
+        <i class="devicon-visualstudio-plain colored"></i>
+        <i class="devicon-github-plain colored"></i>
+        <i class="devicon-docker-plain colored"></i>
+        <p>
+          Favorite tools for version control, coding and container
+          orchestration.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <!-- Professional Work History -->
+    <h1>Experience</h1>
+    <div class="timeline">
+      <div class="timeline__wrap">
+        <div class="timeline__items">
+          <div class="timeline__item">
+            <div class="timeline__content">
+              <h2>Frontend Engineer at Mantium</h2>
+              <h3>06/2021 - 05/2022</h3>
+              <p>
+                • Reduced latency for loading landing page to 0.2s by using
+                React Hooks. <br />
+                • Reached 95% test coverage by following TDD. <br />
+                • Used Material UI and Chakra UI for modern UI/UX. <br />
+                • Collaborated with 2 backend engineers to write optimized
+                GraphQL APIs. <br />
+                • Employed agile methodology for frequent releases. <br />
+                • Mentored 2 new junior frontend developers on a team in
+                expanding JavaScript, React and Vue.js skillset.
+              </p>
+            </div>
+          </div>
+          <div class="timeline__item">
+            <div class="timeline__content">
+              <h2>Full Stack JavaScript Engineer at Mudflap</h2>
+              <h3>11/2020 - 05/2021</h3>
+              <p>
+                • Helped 2 designers build a product wireframe. <br />
+                • Set up the application from scratch using create-react-app.
+                <br />
+                • Converted the wireframe into pixel-perfect UI. <br />
+                • Built and integrated RESTful APIs using Node.js.
+              </p>
+            </div>
+          </div>
+          <div class="timeline__item">
+            <div class="timeline__content">
+              <h2>Frontend Engineer at Rakuten</h2>
+              <h3>04/2018 - 10/2020</h3>
+              <p>
+                • Collaborated with 7 other team members and 3 stakeholders to
+                develop 40+ new user-facing features.
+                <br />
+                • Refactored 10+ features for reduced loading speed, maximum
+                reusability, maintainability and scalability. <br />
+                • Wrote 200+ test cases for every new feature to automate
+                software testing. <br />
+                • Reduced average response time by 35% by migrating REST to
+                GraphQL.
+              </p>
+            </div>
+          </div>
+          <div class="timeline__item">
+            <div class="timeline__content">
+              <h2>Freelance Full Stack Developer</h2>
+              <h3>04/2017 - 03/2018</h3>
+              <p>
+                • Built Single Page Applications (SPA) for 2 MVPs using MERN
+                and MEVN stacks while working with young startups. <br />
+                • Developed the video conferencing system which has 50+
+                concurrent users using MERN stack and WebRTC.
+                <br />
+                • Integrated multiple payment gateways for 2 online shopping
+                sites.
+              </p>
+            </div>
+          </div>
+          <div class="timeline__item">
+            <div class="timeline__content">
+              <h2>Junior Web Developer at Digital Stacks</h2>
+              <h3>11/2015 - 03/2017</h3>
+              <p>
+                • Assisted the development team in maintaining 6 websites.
+                <br />
+                • Partnered with 2 design team members to take client
+                wireframes from conception to implementation.
+                <br />
+                • Translated 4 wireframed website designs into responsive
+                pixel-perfect websites. <br />
+                • Received mentorship from 2 senior web developers while
+                consistently incorporating their feedback.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <h1>Portfolio</h1>
+    <!-- User Project #3: Mantium -->
+    <div class="user-projects">
+      <div class="images-right">
+        <picture>
+          <!-- <source
+              type="image/webp"
+              srcset="./assets/img/webp/mantium.webp"
+              alt="Mantium"
+            /> -->
+          <img alt="Mantium" src="./assets/img/jpg/mantium.jpg" />
+        </picture>
+      </div>
+      <div class="contents" style="text-align: center">
+        <h3>Mantium</h3>
+        <div>
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@v7/icons/figma.svg" style="
+                filter: invert(73%) sepia(74%) saturate(5552%)
+                  hue-rotate(169deg) brightness(109%) contrast(97%);
+              " />
+          &nbsp;
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@v7/icons/typescript.svg" style="
+                filter: invert(73%) sepia(74%) saturate(5552%)
+                  hue-rotate(169deg) brightness(109%) contrast(97%);
+              " />
+          &nbsp;
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@v7/icons/react.svg" style="
+                filter: invert(73%) sepia(74%) saturate(5552%)
+                  hue-rotate(169deg) brightness(109%) contrast(97%);
+              " />
+          &nbsp;
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@v7/icons/nextdotjs.svg" style="
+                filter: invert(73%) sepia(74%) saturate(5552%)
+                  hue-rotate(169deg) brightness(109%) contrast(97%);
+              " />
+          &nbsp;
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@v7/icons/mui.svg" style="
+                filter: invert(73%) sepia(74%) saturate(5552%)
+                  hue-rotate(169deg) brightness(109%) contrast(97%);
+              " />
+          &nbsp;
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@v7/icons/jest.svg" style="
+                filter: invert(73%) sepia(74%) saturate(5552%)
+                  hue-rotate(169deg) brightness(109%) contrast(97%);
+              " />
+          &nbsp;
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@v7/icons/cypress.svg" style="
+                filter: invert(73%) sepia(74%) saturate(5552%)
+                  hue-rotate(169deg) brightness(109%) contrast(97%);
+              " />
+          &nbsp;
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@v7/icons/graphql.svg" style="
+                filter: invert(73%) sepia(74%) saturate(5552%)
+                  hue-rotate(169deg) brightness(109%) contrast(97%);
+              " />
+          &nbsp;
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@v7/icons/circleci.svg" style="
+                filter: invert(73%) sepia(74%) saturate(5552%)
+                  hue-rotate(169deg) brightness(109%) contrast(97%);
+              " />
+        </div>
+        <p style="text-align: justify">
+          Mantium is an end-to-end AI development platform where teams can
+          test, deploy, and monitor their AI systems, all with a low-code
+          approach. We empower teams to work together to quickly build and
+          manage powerful, responsible AI applications at scale.
+        </p>
+        <a class="project-link" target="_blank" href="https://mantiumai.com">
+          Visit website
+        </a>
+      </div>
+    </div>
+
+    <!-- User Project #2: Mudflap -->
+    <div class="user-projects">
+      <div class="images-left">
+        <picture>
+          <!-- <source
+              type="image/webp"
+              srcset="./assets/img/webp/mudflap.webp"
+              alt="Mudflap"
+            /> -->
+          <img alt="Mudflap" src="./assets/img/jpg/mudflap.jpg" />
+        </picture>
+      </div>
+      <div class="contents-right" style="text-align: center">
+        <h3>Mudflap</h3>
+        <img height="32" width="32" src="https://unpkg.com/simple-icons@v7/icons/figma.svg" style="
+              filter: invert(73%) sepia(74%) saturate(5552%) hue-rotate(169deg)
+                brightness(109%) contrast(97%);
+            " />
+        &nbsp;
+        <img height="32" width="32" src="https://unpkg.com/simple-icons@v7/icons/javascript.svg" style="
+              filter: invert(73%) sepia(74%) saturate(5552%) hue-rotate(169deg)
+                brightness(109%) contrast(97%);
+            " />
+        &nbsp;
+        <img height="32" width="32" src="https://unpkg.com/simple-icons@v7/icons/react.svg" style="
+              filter: invert(73%) sepia(74%) saturate(5552%) hue-rotate(169deg)
+                brightness(109%) contrast(97%);
+            " />
+        &nbsp;
+        <img height="32" width="32" src="https://unpkg.com/simple-icons@v7/icons/tailwindcss.svg" style="
+              filter: invert(73%) sepia(74%) saturate(5552%) hue-rotate(169deg)
+                brightness(109%) contrast(97%);
+            " />
+        &nbsp;
+        <img height="32" width="32" src="https://unpkg.com/simple-icons@v7/icons/githubactions.svg" style="
+              filter: invert(73%) sepia(74%) saturate(5552%) hue-rotate(169deg)
+                brightness(109%) contrast(97%);
+            " />
+        &nbsp;
+        <img height="32" width="32" src="https://unpkg.com/simple-icons@v7/icons/nodedotjs.svg" style="
+              filter: invert(73%) sepia(74%) saturate(5552%) hue-rotate(169deg)
+                brightness(109%) contrast(97%);
+            " />
+        <p style="text-align: justify">
+          Big fleets get major fuel discounts because they have large gallon
+          volumes. But owner-operators and small fleets are often left to fend
+          for themselves. With Mudflap, everyone joins forces to get access to
+          the same big discount of up to 50¢/gal discount. In this case,
+          together is better.
+        </p>
+        <a class="project-link" target="_blank" href="https://mudflapinc.com">
+          Visit website
+        </a>
+      </div>
+    </div>
+
+    <!-- User Project #1: Digital Stacks -->
+    <div class="user-projects">
+      <div class="images-right">
+        <picture>
+          <!-- <source
+              type="image/webp"
+              srcset="./assets/img/webp/digital-stacks.webp"
+              alt="Digital Stacks"
+            /> -->
+          <img alt="Digital Stacks" src="./assets/img/jpg/digital-stacks.jpg" />
+        </picture>
+      </div>
+      <div class="contents" style="text-align: center">
+        <h3>Digital Stacks</h3>
+        <div>
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@v7/icons/javascript.svg" style="
+                filter: invert(73%) sepia(74%) saturate(5552%)
+                  hue-rotate(169deg) brightness(109%) contrast(97%);
+              " />
+          &nbsp;
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@v7/icons/vuedotjs.svg" style="
+                filter: invert(73%) sepia(74%) saturate(5552%)
+                  hue-rotate(169deg) brightness(109%) contrast(97%);
+              " />
+          &nbsp;
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@v7/icons/vuetify.svg" style="
+                filter: invert(73%) sepia(74%) saturate(5552%)
+                  hue-rotate(169deg) brightness(109%) contrast(97%);
+              " />
+        </div>
+        <p style="text-align: justify">
+          Digital Stacks Corporation has over 25 years of experience as an IT
+          consulting agency with experienced engineering backgrounds. We offer
+          digital marketing, IT consulting, technical implementation support,
+          and analytics services for the digital age.
+        </p>
+        <a class="project-link" target="_blank" href="https://en.digitalstacks.net">
+          Visit website
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; Hotaka Nagamine, 2022</p>
+  </footer>
+
+  <!-- Import JS: Particles Theme -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <!-- Import JS: Sweet Scroll -->
+  <script src="./assets/js/sweet-scroll.min.js"></script>
+  <!-- Import JS: Google Analytics -->
+  <script src="./assets/js/google-analytics.js"></script>
+  <!-- Import JS: Timeline Script -->
+  <script src="./assets/js/timeline.min.js"></script>
+  <!-- Import JS: Main Script -->
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
