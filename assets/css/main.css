@@ -245,6 +245,7 @@ template {
 }
 
 @-webkit-keyframes pulse {
+
   0%,
   to {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
@@ -263,6 +264,7 @@ template {
 }
 
 @keyframes pulse {
+
   0%,
   to {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
@@ -283,13 +285,11 @@ template {
 @font-face {
   font-family: "FontAwesome";
   src: url(../fonts/fontawesome-webfont.eot?v=4.7.0);
-  src: url(../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0)
-      format("embedded-opentype"),
+  src: url(../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format("embedded-opentype"),
     url(../fonts/fontawesome-webfont.woff2?v=4.7.0) format("woff2"),
     url(../fonts/fontawesome-webfont.woff?v=4.7.0) format("woff"),
     url(../fonts/fontawesome-webfont.ttf?v=4.7.0) format("truetype"),
-    url(../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular)
-      format("svg");
+    url(../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format("svg");
   font-weight: 400;
   font-style: normal;
 }
@@ -336,7 +336,7 @@ template {
   list-style-type: none;
 }
 
-.fa-ul > li {
+.fa-ul>li {
   position: relative;
 }
 
@@ -3715,7 +3715,7 @@ a img {
   background: -webkit-linear-gradient(to right, #095018, #0f9225);
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #095018, #0f9225);
-  animation: fade-out 4s linear 1;
+  animation: fade-out 3s linear 1;
   opacity: 0;
   position: absolute;
   z-index: 999;
@@ -3771,7 +3771,6 @@ a img {
 
   100% {
     opacity: 0;
-    z-index: -1;
   }
 }
 

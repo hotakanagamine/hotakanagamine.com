@@ -14,7 +14,7 @@ setTimeout(() => {
   display(document.getElementById("experience"), "block");
   display(document.getElementById("portfolio"), "flex");
   display(document.getElementsByClassName("footer")[0], "block");
-}, 2000);
+}, 3000);
 
 // Particles
 document.addEventListener(
